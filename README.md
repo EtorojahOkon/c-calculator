@@ -13,4 +13,7 @@ c. Logarithmic functions
 d. Quadratic functions
 
 Additionally, this calculator logs all actions performed on console for easy reference
+
 I actually coded the ui without visual studio...
+
+Uncomment the this.Logo line and add an appropriate form logo of your choice
