@@ -153,7 +153,7 @@ namespace CalculatorApp
 
             clr =  new Button();
             clr.Location =new System.Drawing.Point(330,230);
-            clr.Text = "CL";
+            clr.Text = "AC";
             clr.AutoSize = true;
             clr.BackColor = Color.Red;
             clr.ForeColor = Color.White;
@@ -427,7 +427,7 @@ namespace CalculatorApp
 
         public void Manual(Object Sender,EventArgs e)
         {
-            string txt = "For any of the following[sin,cos,tan,log,%,sqrt], simply click the number button and the appropriate function button \n Eg press 16, then sqrt button to find sqrt of 16.\n\n For simultaneous equations simply input in this format a,b,c(where a and b are coefficients of x^2 and x respectively and c is a constant) and press the equals sign";
+            string txt = "For any of the following[sin,cos,tan,log,%,sqrt], simply click the number button and the appropriate function button \n Eg press 16, then sqrt button to find sqrt of 16.\n\n For quadratic equations simply input in this format a,b,c(where a and b are coefficients of x^2 and x respectively and c is a constant) and press the equals sign";
             MessageBox.Show(txt);
             Console.WriteLine("You opened calculator manual!");
         }
@@ -496,6 +496,7 @@ namespace CalculatorApp
             {
                 main_disp.Text = "0";
                 Console.WriteLine("You turned on calculator!");
+                clr.Text = "AC";
             }
             else
             {
